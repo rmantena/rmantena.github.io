@@ -1,0 +1,97 @@
+/* 
+CSS for my personal webpage 
+Written by : Rajiv Mantena
+Email : mantenarajiv <at> gmail.com
+Date : January 27th 2017
+*/
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	background-color: #ffffff;
+}
+
+#page-wrap { 
+	width: 800px;  
+	margin: 40px auto 60px;
+}
+
+#pic { 
+	height: 160px ; 
+	float: center; 
+	margin: 40px 0 20px 90px;
+	-webkit-transition: all 0.5s; /* Safari and Chrome */
+	-moz-transition: all 0.5s; /* Firefox */
+	-ms-transition: all 0.5s; /* IE 9 */
+	-o-transition: all 0.5s; /* Opera */
+}
+
+#pic:hover {
+	-webkit-transform:scale(1.05); /* Safari and Chrome */
+	-moz-transform:scale(1.05); /* Firefox */
+	-ms-transform:scale(1.05); /* IE 9 */
+	-o-transform:scale(1.05); /* Opera */
+	 transform:scale(1.05);
+}
+
+#frame { 
+	width: 800px; 
+	height : 535px; 
+	border-radius: 5px; 
+	border: 1px solid black; 
+	padding: 0px; 
+	margin: 50px auto 60px; 
+	background-color: #ffffff;
+}
+
+#header {
+	width: 800px; 
+	margin: 60px auto 18px;
+}
+
+#body {
+	width: 700px; 
+	text-align: center; 
+	margin: 30px auto 20px; 
+	color: #000;
+}
+
+#body p {
+	margin: 0 0 15px 0; 
+	color: #808b96  
+}
+
+#footer {
+	width: 700px; 
+	text-align: center; 
+	margin: 8px auto; 
+	color: #000;
+}
+
+#footer p {
+	margin: 0 0 20px 0; 
+	color: #000;
+}
+
+a { 
+	color: #000; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #808b96; 
+}
+
+#copy {
+	width: 700px; 
+	text-align: center; 
+	margin: auto; 
+	color: #bdc3c7; 
+	font-size: 14px; 
+	font-style: italic;
+}
