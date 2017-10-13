@@ -1,0 +1,174 @@
+<!--- index HTML for my webpage --->
+<!--- I reseve all rights to this webpage. Contact me before duplicating this! --->
+
+<!DOCTYPE html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	 <meta name="viewport" content="width=device-width, initial-scale=0.4"> 
+	 
+     <title>Projects | Rajiv Mantena</title>
+	 
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+	
+    <link rel="stylesheet" href="style/basic_mobile.css" type="text/css" media="screen, projection"/>
+	<link rel="stylesheet" href="style/basic_web.css" type="text/css" media="screen and (min-device-width: 800px), projection"/>
+</head>
+<body>
+	<div id="header">
+		<a href="http://www.rajivmantena.net"><img src="http://www.rajivmantena.net/images/rm2.gif" alt="logo" id="pic"/></a>
+	</div>
+	<div id="frame">
+		<p>
+		<a href="index.html">Home</a> &nbsp; | 
+		&nbsp; <a href="about.html"> About me</a> &nbsp; | 
+		&nbsp; Projects &nbsp; | 
+		&nbsp; <a href="cv.html">CV</a> &nbsp; | 
+		&nbsp; <a href="edu.html"> Education</a> &nbsp; | 
+		&nbsp; <a href="work.html"> Experience </a>
+		</p>
+		<hr>
+		<div id="body"> 
+		<myTitle>Projects</myTitle>
+		
+		<div id="emptyWrapper">
+			<div id="onlyContent" style="margin-bottom:20px;">
+			<a name="ml"></a>
+			<projectTitle> Predicting an airline’s stock price based on its on-time performance </projectTitle>
+			<br>
+			<date>December 2016</date>
+			<br>
+			<p>We worked on this project to understand if there was any hidden trend on how stock prices of an airline 
+			company are affected by it’s on-time performance.</p>
+			<p>Suppose, on a particular day, if majority of flights of a particular airline company are cancelled/delayed, it can be
+			intuitively understood that this would affect the company’s stock prices.  A drop in the stock prices could be anticipated.</p>
+			<p>However, this trend in stock prices may not be effectively predicted on regular days.  We were intrigued by this idea as there 
+			might be a hidden trend in nature which may not be intuitive to understand, but Machine Learning ideas could be used in this scenario 
+			to learn a close approximation of this hidden trend.</p>
+			
+			<p> Some noteworthy learnings and outcomes from this project were :</p>
+			<ul style="margin-left:20px; font-size:100%;">
+			<li> Considered real on-time performance data and stock trend data of American Airlines over a period of 13 months. </li>
+			<li> Trained Random Forests, Support Vector Machines and several other classifiers to predict stock prices of future. </li>
+			<li> We we able to predict if there would be an increase or decrease in Stock Prices with <b>75% accuracy</b>. </li>
+			</ul>
+			<p><span style="float:right;margin-top:-10px">Links : <a href="http://www.rajivmantena.net/files/ml.pdf" target="_blank">[ Complete project report ]</a></span></p>
+			</div>
+			
+			<a name="mp"></a>
+			<div id="onlyContent" style="margin-bottom:20px;">
+			<projectTitle> Motion planning for a Sheep-Dog </projectTitle>
+			<br>
+			<date>October 2015 - December 2015</date>
+			<br>
+			<img src="http://www.rajivmantena.net/images/mp.gif" width="370" id="inline" style="margin-top:-40px;margin-right:-15px">
+			
+			<p>We tried to explore the problem space of planning the motion of a dynamic body by in influencing 
+			it with another dynamic body. To explore the problem space, we applied this to the sheep dog problem 
+			where we program the robotic dog to herd the sheep towards the goal.</p>
+			<p>The problem of moving an object (or a set of objects) to a desired goal state by in influencing 
+			the object (or a set of objects) to be moved using another object that already has a notion of 
+			where the goal is location has been addressed.</p>
+			
+			<p><span style="float:right;margin-top:-20px">Links : <a href="http://www.rajivmantena.net/files/mp.pdf" target="_blank">[ Complete project report ]</a></span></p>
+			</div>
+			
+			<a name="fdm"></a>
+			<div id="onlyContent" style="margin-bottom:20px;">
+			<projectTitle> Fabrication and Functioning of Fusion Deposition Modelling Machine </projectTitle>
+			<br>
+			<date>December 2012 - March 2013</date>
+			<br>
+			
+			<p> The project was undertaken as my Engineering Final Project, teaming up with three other classmates. It was successfully 
+			completed in 15 weeks on record low budget of under <b>₹20,000</b>. The 3D printer was based on Reprap mendel open source model.</p>
+
+			<p>Arduino acted as the printer controller running teacup firmware, which was connected to a PC running the printer interface software.</p>
+
+			<p> We were able to achieve near perfect prints out of ABS plastic with extrusion thinness being 0.3mm, with the dimensional 
+			accuracy being 0.1mm. The maximum size of the print possible was 25x25x20 centimetres. The project was highly appreciated by 
+			examiners/faculty during the final project review. </p>
+			
+			<p>Noteworthy challenges that we have faced during this project were :
+			<ul style="margin-left:20px; font-size:100%;">
+			<li> The mechanical structure had to be completely fabricated in college workshops by our team. </li>
+			<li> Several parts had to be intricately machined to strict dimensional constaints.</li>
+			<li> Extruder had to be machined out of brone, with a extrusion of just <b>0.25 mm</b>.</li>
+			<li> Cylindrical sleeves were made out of PTFE with just <b>0.5mm</b> thickness. </li>
+			<li> The electronics circuit boards required on the machine to drive the 5 stepper motors were prepared using Fritzing tool, 
+			etched out and hand-soldered by our team. </li>
+			</ul>
+			
+
+			<p><span style="float:right;margin-top:0px">Links : <a href="http://www.rajivmantena.net/files/fdm.pdf" target="_blank">[ Complete project report ]</a></span></p>
+			</div>
+			
+			<a name="cair"></a>
+			<div id="onlyContent" style="margin-bottom:20px;">
+			<projectTitle> Study and Optimization project on Tree Climbing Robot </projectTitle>
+			<br>
+			<date>May 2012 - July 2012</date>
+			<br>
+			
+			<p> The project was undertaken as summer internship at Centre for Artificial Intelligence and Robotics (CAIR), Bangalore. 
+			CAIR is a premier robotic research laboratory under DRDO, currently working on several autonomous robots like UGV’s, UAV’s 
+			amongst others required for use by the defence forces. Duration of the project – 6 weeks.</p>
+
+			<p> Optimized the performance of the existing first iteration of a tree climbing robot which was being developed for surveillance purposes. </p>
+
+			<p> I have worked on optimizing the electronic circuitry on the robot to improve the energy consumption. I have also reduced 
+			the physical vulnerability of the Robot by reducing the number of wires running between the motorboard and motors.</p>
+
+			<p> Several changes were done to the on-board electronics. The entire circuitry was redesigned, as the first iteration of the 
+			robot was equipped with several prototyping boards instead of a single 	custom motherboard. </p>
+
+			<p> A completely new mother board was designed from scratch and built specifically to ensure reduction in the number of loose 
+			wires and efficiency in communicating with other components on the robot.</p>
+
+			</div>
+			
+			<div id="onlyContent" style="margin-bottom:20px;">
+			<projectTitle> Wireless Home Automation System with control via Smartphone </projectTitle>
+			<br>
+			<date>October 2012</date>
+			<br>
+			
+			<img src="http://www.rajivmantena.net/images/wha.gif" width="300" id="inline" style="margin-left:20px;">
+			<p> This project was based on Android and Arduino interaction via Bluetooth. It was executed in 2 weeks time along with two 
+			other classmates. </p>
+			
+			<p> We were able to achieve complete practical operation of turning on or off any electronic appliance running at 230V/upto 5A.
+			Key learnings from this project were :
+			<ul style="margin-left:20px; font-size:100%;margin-bottom:10px;">
+			<li> An <b>Andriod</b> app was configured to send out certain data bits via Bluetooth. </li>
+			<li> <b>Arduino</b> was programmed to recieve and understand the data bits.</li>
+			<li> Several Relays were connected to the Arduino, which would be turned on and off based on the data recieved.</li>
+			<li> Each Relay acted as a switch for certain electrical device working at 230V. </li>
+			</ul>
+			
+			<p> Based on the input received from the smartphone, Arduino would turn on/off the respective switch to power on/off the electrical devices. </p>
+			
+			</div>
+			
+			
+			<div id="onlyContent" style="margin-bottom:0px;">
+			<projectTitle> Autonomous Line Following Robot </projectTitle>
+			<br>
+			<date>September 2011</date>
+			<br>
+			
+			<p> Working on Line follower was my first practical exposure towards robotics and the robot was heavily worked upon for a span 
+			of over a year, resulting in several iterations resulting in optimising the efficiency, speed and intelligence of the robot. </p>
+			
+			<p> The first iteration consisted of an AVR Atmega microcontroller board with 5 IR LED pairs providing the necessary input. In 
+			subsequent iterations, the control board was self designed and hand-soldered out of a single board including all the necessary electronics.</p>
+		
+			</div>
+			<div id="cleared"></div>
+			</div>
+		</div>
+	</div>
+<div id="copy">
+	&copy; Rajiv Mantena | Updated : January 2017
+</div>
+</body>
+</html>

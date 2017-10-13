@@ -1,0 +1,212 @@
+/* 
+CSS for my personal webpage 
+Written by : Rajiv Mantena
+Email : mantenarajiv <at> gmail.com
+Date : January 27th 2017
+*/
+
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	background-color: #ffffff;
+}
+
+#page-wrap { 
+	width: 800px;  
+	margin: 40px auto 60px;
+}
+
+#pic { 
+	height: 120px ;
+	float: center;
+	margin: 15px 160px;
+}
+
+#about_pic { 
+	height: 394px;
+	float: center;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+
+#frame { 
+	width: 800px; 
+	border-radius: 5px; 
+	border: 1px solid black; 
+	padding: 0px; 
+	margin: 0px auto 0px; 
+	background-color: #ffffff;
+}
+
+#frame p {
+	margin: 10px auto 10px;
+	text-align: center; 
+	color: #808b96;
+}
+
+#header {
+	text-align: center; 
+	width: 800px; 
+	margin: 0 auto 0px;
+}
+
+#body {
+	width: 700px; 
+	text-align: center; 
+	margin: 15px auto 30px; 
+	color: #000;
+}
+
+#body myTitle {
+	color: #00000;
+	font-size:130%;
+	font-style: underlined;
+}
+
+#body p {
+	margin: 10px 0 10px 0; 
+	color: #000;	
+	text-align: justify; 
+    word-spacing: 120%;
+	line-height: 1.35;
+	padding-bottom: 10px;
+}
+
+#body p a{
+	margin: 0 0 10px 0; 
+	color:  #2874a6   ;
+}
+
+#body a:hover { 
+	color: #000; 
+}
+
+#wrapper {
+  margin:15px 0px 15px 140px;
+}
+
+#emptyWrapper {
+  width:700px;
+  margin:15px 0px 15px 0px;
+}
+
+#content {
+  float: left;
+  text-align: justify;
+  width: 100%;
+  border-left: 0px solid black;
+  padding-left: 15px;
+  font-size: 100%;
+  padding-bottom: 10px;
+}
+
+#onlyContent {
+  float: right;
+  text-align: justify;
+  width: 100%;
+  border-left: 0px;
+  padding-left: 15px;
+  color: #000;
+  word-spacing: 120%;
+  line-height: 1.35;
+  font-size: 90%;
+}
+
+#onlyContent projectTitle {
+  font-size: 130%;
+  word-spacing: 85%;
+  line-height: 1;
+}
+
+#onlyContent date {
+	float: left;
+	font-size: 85%;
+	color: #808b96;
+	font-style: italic;
+}
+
+
+#myTable {
+  font-weight:normal;
+  float: right;
+  text-align: left;
+  border: 0px;
+  width: 95%;
+  color: #000;
+  font-size: 110%;
+  margin: 0px 0px -30px 0px; 
+}
+
+
+#content, #onlyContent p {
+	text-align: justify;
+	font-size: 95%;
+	margin: 10px 0 0px 0;
+}
+
+#content, #onlyContent a{
+	color: #808b96;
+}
+
+#content, #onlyContent a:hover { 
+	color: #000; 
+}
+
+#sidebar {
+  float: left;
+  text-align: right;
+  width: 140px;
+  margin-left: -170px;
+}
+
+#sidebar myText {
+	margin-top:10px;
+	font-size: 85%;
+	color: #808b96;
+	font-style: italic;
+}
+
+#cleared {
+  clear: both;
+}
+
+a { 
+	color: #000; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #808b96; 
+}
+
+#inline{
+    float: right;
+    margin: 0px 10px 5px 10px;
+}
+
+#icon {
+	width: 40px;
+	float: left; 
+	margin: -12px -4px 15px 0px; 
+}
+
+#aboutPic {
+	float:right; 
+	width: 450px;
+	margin: -50px -50px -80px -50px;
+}
+
+#copy {
+	width: 700px; 
+	text-align: center; 
+	margin: 10px auto; 
+	color: #bdc3c7; 
+	font-size: 14px; 
+	font-style: italic;
+}
