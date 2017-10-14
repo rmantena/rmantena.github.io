@@ -108,7 +108,7 @@ body {
 
 #onlyContent {
   float: right;
-  text-align: justify;
+  /* text-align: justify; */
   width: 100%;
   border-left: 0px;
   padding-left: 15px;
@@ -119,7 +119,7 @@ body {
 }
 
 #onlyContent projectTitle {
-  font-size: 130%;
+  font-size: 140%;
   word-spacing: 85%;
   line-height: 1;
 }
@@ -146,7 +146,7 @@ body {
 
 #content, #onlyContent p {
 	text-align: justify;
-	font-size: 95%;
+	font-size: 100%;
 	margin: 10px 0 0px 0;
 }
 
