@@ -1,10 +1,106 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Biryani' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: 'Biryani'; 
+}
+
+.title {
+  text-align: center;  
+  padding: 15px;
+  font-family: 'Bad Script'; font-size: 72px;
+}
+
+.footer {
+  background-color: #111111;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+}
+
+a {text-decoration: none; color: inherit;} 
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-2a {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%; }
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="col-2a"] {
+    width: 5%;
+  }
+  [class="col-8"] {
+    width: 90%;
+  }
+}
+</style>
+</head>
 <body>
 
-<div id="my-store-50473111"></div>
-<div>
-<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?50473111&data_platform=code&data_date=2021-03-03" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-50473111");</script>
+<div class="row">
+	<div class="col-2" style="text-align: right;">
+	<a href="#!/~/accountSettings"><img src="https://www.flaticon.com/svg/vstatic/svg/1077/1077063.svg?token=exp=1614783268~hmac=256ad7b7348bd91f3cd3b2f715da765b" style="width:30px;height:30px;"></a></div>
+	<div class="col-3" style="text-align: right; margin-top: 10px;" >
+	<a href="#">About</a>
+	</div>
+	<div class="col-2" style="text-align: center; margin-top: 10px;" >
+	<a href="#">Home</a>
+	</div>
+	<div class="col-3" style="text-align: left; margin-top: 10px;" >
+	<a href="#">FAQ</a>
+	</div>
+	<div class="col-2" style="text-align: left;">
+	<a href="#!/~/cart"><img src="https://www.flaticon.com/svg/vstatic/svg/126/126515.svg?token=exp=1614783462~hmac=6b1b5717ec9e98dba7d7d2cc8a56f2b7" style="width:30px;height:30px;"></a>
+	</div>
+</div>
+
+<div class="title">
+<a href="#">Test Store</a>
+</div>
+
+<div class="row">
+  <div class="col-2a">
+  </div>
+
+  <div class="col-8">
+  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?50473111&data_platform=code&data_date=2021-03-03" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-50473111");</script>
+  </div>
+
+  <div class="col-2a">
+  </div>
+</div>
+
+<div class="footer">
 </div>
 
 </body>
